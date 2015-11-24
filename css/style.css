@@ -16,13 +16,14 @@ a.nodec {
 	padding: 20px 0 50px 0;
 }
 
-.section-title {
-	text-align: center;
-	font-size: 96px;
-	font-family: "AllStar4";
-	font-weight: bold;
-	text-transform: uppercase;
-	margin-bottom: 10px;
+.section-title-img-div {
+	width: 25%;
+	margin: 0 auto;	
+	padding-bottom: 10px;
+}
+
+.section-title-img {
+	width: 100%;
 }
 
 .section-text-container {
@@ -83,21 +84,43 @@ p.section-text {
 	font-weight: bold;
 }
 
-#exec {
+#team-members {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 
 }
 
-.exec-pic-div {
+.team-pic-div {
 	margin-top: 25px;
 	float: left;
 	width: 16.6666667%;
 }
 
-.exec-pic-img {
+.team-pic-img {
 	border-radius: 50%;
 	border: 2px solid lightgray;
 	width: 75%;
+}
+
+@media all and (max-width: 1280px) {
+	#about-content {
+		width: 80%;
+		font-size: 20px;
+	}
+
+	#team-members {
+		width: 80%;
+	}
+
+	.team-pic-div {
+		width: 24%;
+	}
+
+}
+
+@media all and (max-width: 800px) {
+	.team-pic-div {
+		width: 33%;
+	}
 }
