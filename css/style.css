@@ -45,6 +45,10 @@ p.section-text {
 	width: 100%;
 }
 
+#reg-title-img-div {
+	width: 45%;
+}
+
 #about {
 	width: 100%;
 	background: url("../img/about-bg.jpg");
