@@ -100,6 +100,11 @@ li.section-text {
 	text-align: center;
 }
 
+#gonzo-content {
+	width: 50%;
+	margin: 100px auto 0;
+}
+
 #about {
 	width: 100%;
 	background: url("../img/about-bg.jpg");
@@ -112,10 +117,14 @@ li.section-text {
 	margin: 0 auto;
 }
 
-.inline-logo {
+.inline-img {
 	width: 30%;
 	margin: 10px 20px 10px 0;
 	border-radius: 50%;
+}
+
+#gonzo-logo {
+	float: right;
 }
 
 #germany-logo {
@@ -165,6 +174,11 @@ li.section-text {
 	}
 
 	#about-content {
+		width: 80%;
+		font-size: 20px;
+	}
+
+	#gonzo-content {
 		width: 80%;
 		font-size: 20px;
 	}
